@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clean": "buidler clean",
     "build": "buidler compile",
     "postbuild": "typechain --target ethers ./artifacts/**/*.json",
     "test": "buidler test",
