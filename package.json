@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "buidler compile",
+    "postbuild": "typechain --target ethers ./artifacts/**/*.json",
+    "test": "buidler test"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +15,18 @@
     "@nomiclabs/buidler": "1.2.0",
     "@nomiclabs/buidler-ethers": "1.2.0",
     "@nomiclabs/buidler-waffle": "1.2.0",
+    "@types/chai": "4.2.11",
+    "@types/mocha": "7.0.2",
+    "@types/node": "13.9.1",
+    "chai": "4.2.0",
     "ethereum-waffle": "2.4.0",
-    "ethers": "4.0.46"
+    "ethers": "4.0.46",
+    "ts-node": "8.6.2",
+    "typechain": "1.0.5",
+    "typechain-target-ethers": "1.0.3",
+    "typescript": "3.8.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "2.5.0"
   }
 }
