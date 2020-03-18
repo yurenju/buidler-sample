@@ -8,5 +8,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/buidler": "1.2.0",
+    "@nomiclabs/buidler-ethers": "1.2.0",
+    "@nomiclabs/buidler-waffle": "1.2.0",
+    "ethereum-waffle": "2.4.0",
+    "ethers": "4.0.46"
+  }
 }
