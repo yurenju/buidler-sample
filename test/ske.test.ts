@@ -22,6 +22,6 @@ describe("Counter smart contract", () => {
 
   it("sets initial balance in the constructor", async () => {
     const token = await deployToken("10000");
-    expect(await token.balanceOf(address)).to.equal("10000");
+    expect(await token.balanceOf(address)).to.equal("1000");
   });
 });
