@@ -22,7 +22,7 @@
     "@types/mocha": "7.0.2",
     "@types/node": "13.9.1",
     "chai": "4.2.0",
-    "ethereum-waffle": "2.4.0",
+    "ethereum-waffle": "4.0.10",
     "ethers": "4.0.46",
     "solidity-coverage": "0.7.2",
     "ts-node": "8.6.2",
